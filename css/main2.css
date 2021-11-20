@@ -15,8 +15,6 @@ h2
   font-weight: bolder;
 }
 
-
-
 .commands 
 { 
   margin-top: 20px; 
@@ -40,25 +38,24 @@ body
 { 
   top: 0;
   width: 100%; 
-  height: 795px; 
+  height: 820px; 
   /* width: 100%;
   height: 100%; */
   margin: 0 0; 
-
+   
   overflow: hidden;
   position: relative; 
   z-index: 0; 
   outline: 5px solid rgb(206, 198, 199);
-  /* background: url(../images/12.gif) no-repeat;  */
-  background: url('../images/3.gif');
+  background: url(../images/2.gif) no-repeat; 
   background-size:cover ; 
 }
 
 .ken,.fireball
 { 
   position: absolute; 
-  bottom: 60px; 
-  margin-left: 40px; 
+  bottom: 40px; 
+  margin-left: 80px; 
   background-image: url(../images/ken.png);
   min-width: 70px; 
   min-height: 80px; 
@@ -68,7 +65,7 @@ body
   { 
     position: absolute; 
     bottom: 60px; 
-    margin-left: 40px; 
+    margin-left: 80px; 
     background-image: url(../images/ken.png);
     min-width: 70px; 
     min-height: 80px; 
@@ -94,15 +91,14 @@ body
   -moz-box-shadow: 0 0 5px;  */
   box-shadow: 0 0 5px; 
 }
-
 .guile
 { position: absolute;
-  bottom: 45px; 
-  margin-left: 320px; 
-  min-width: 70px; 
-  min-height: 100px; 
-  background-image: url(../images/guile.png);
-  zoom: 2;
+  bottom: 55px; 
+  margin-left: 450px; 
+  min-width: 65px; 
+  min-height: 120px; 
+  background-image: url(../images/mike-1.png);
+  zoom: 1.5;
 }
 
 
@@ -213,26 +209,25 @@ body
   to { background-position: -280px -80px; } 
 }
 
-
 .stance2 
 { 
-  -webkit-animation: stance2 steps(3) 0.5s infinite; 
-  -moz-animation: stance2 steps(3) 0.5s infinite; 
-  -ms-animation: stance2 steps(3) 0.5s infinite; 
-  animation: stance2 steps(3) 0.5s infinite; 
+  -webkit-animation: stance2 steps(2) 0.4s infinite; 
+  -moz-animation: stance2 steps(2) 0.4s infinite; 
+  -ms-animation: stance2 steps(2) 0.4s infinite; 
+  animation: stance2 steps(2) 0.4s infinite; 
 }
 
-@-webkit-keyframes stance2 { from { background-position: 0px 0px; }
-  to { background-position: -210px 0px; } }
+@-webkit-keyframes stance2 { from { background-position: -5px 0px; }
+  to { background-position: -250px 0px; } }
 
-@-moz-keyframes stance2 { from { background-position: 0px 0px; }
-  to { background-position: -210px 0px; } }
+@-moz-keyframes stance2 { from { background-position: -5px 0px; }
+  to { background-position: -250px 0px; } }
 
-@-ms-keyframes stance2 { from { background-position: 0px 0px; }
-  to { background-position: -210px 0px; } }
+@-ms-keyframes stance2 { from { background-position: -5px 0px; }
+  to { background-position: -250px 0px; } }
 
-@keyframes stance2 { from { background-position: 0px 0px; }
-  to { background-position: -210px 0px; } }
+@keyframes stance2 { from { background-position: -5px 0px; }
+  to { background-position: -250px 0px; } }
 
 /* ----------------------------------------------------------------------------------- */
 /*fball*/
@@ -403,7 +398,7 @@ to{background-position: -70px -720px;}
 }
 
 /* hit1 */
-.hit1 { background-image: url(../images/guile-hit.png); -webkit-animation: hit1 steps(1) 0.5s infinite; -moz-animation: hit1 steps(1) 0.5s infinite; -ms-animation: hit1 steps(1) 0.5s infinite; animation: hit1 steps(1) 0.5s infinite; }
+.hit1 { background-image: url(../images/mike-hit.png); -webkit-animation: hit1 steps(1) 0.5s infinite; -moz-animation: hit1 steps(1) 0.5s infinite; -ms-animation: hit1 steps(1) 0.5s infinite; animation: hit1 steps(1) 0.5s infinite; }
 
 @-webkit-keyframes hit1 { from { background-position: 0px 0px; }
   to { background-position: -70px 0px; } }
@@ -418,31 +413,31 @@ to{background-position: -70px -720px;}
   to { background-position: -70px 0px; } }
 
 /* hit2 */
-.hit2 { background-image: url(../images/guile-hit.png); -webkit-animation: hit2 steps(3) 0.5s infinite; -moz-animation: hit2 steps(3) 0.5s infinite; -ms-animation: hit2 steps(3) 0.5s infinite; animation: hit2 steps(3) 0.5s infinite; }
+.hit2 { background-image: url(../images/mike-hit.png); -webkit-animation: hit2 steps(1) 0.5s infinite; -moz-animation: hit2 steps(1) 0.5s infinite; -ms-animation: hit2 steps(1) 0.5s infinite; animation: hit2 steps(1) 0.5s infinite; }
 
-@-webkit-keyframes hit2 { from { background-position: 0px -90px; }
-  to { background-position: -210px -90px; } }
+@-webkit-keyframes hit2 { from { background-position: 0px 100px; }
+  to { background-position: -210px 0px; } }
 
-@-moz-keyframes hit2 { from { background-position: 0px -90px; }
-  to { background-position: -210px -90px; } }
+@-moz-keyframes hit2 { from { background-position: 0px 100px; }
+  to { background-position: -210px 0px; } }
 
-@-ms-keyframes hit2 { from { background-position: 0px -90px; }
-  to { background-position: -210px -90px; } }
+@-ms-keyframes hit2 { from { background-position: 0px 100px; }
+  to { background-position: -210px 0px; } }
 
-@keyframes hit2 { from { background-position: 0px -90px; }
-  to { background-position: -210px -90px; } }
+@keyframes hit2 { from { background-position: 0px 100px; }
+  to { background-position: -210px 0px; } }
 
 /* hit3 */
-.hit3 { background-image: url(../images/guile-hit.png); -webkit-animation: hit3 steps(3) 0.5s infinite; -moz-animation: hit3 steps(3) 0.5s infinite; -ms-animation: hit3 steps(3) 0.5s infinite; animation: hit3 steps(3) 0.5s infinite; }
+.hit3 { background-image: url(../images/mike-hit.png); -webkit-animation: hit3 steps(1) 0.5s infinite; -moz-animation: hit3 steps(1) 0.5s infinite; -ms-animation: hit3 steps(1) 0.5s infinite; animation: hit3 steps(1) 0.5s infinite; }
 
-@-webkit-keyframes hit3 { from { background-position: 0px -180px; }
-  to { background-position: -210px -180px; } }
+@-webkit-keyframes hit3 { from { background-position: 0px 0px; }
+  to { background-position: -210px -90px; } }
 
-@-moz-keyframes hit3 { from { background-position: 0px -180px; }
-  to { background-position: -210px -180px; } }
+@-moz-keyframes hit3 { from { background-position: 0px 0px; }
+  to { background-position: -210px -90px; } }
 
-@-ms-keyframes hit3 { from { background-position: 0px -180px; }
-  to { background-position: -210px -180px; } }
+@-ms-keyframes hit3 { from { background-position: 0px 0px; }
+  to { background-position: -210px -90px; } }
 
-@keyframes hit3 { from { background-position: 0px -180px; }
-  to { background-position: -210px -180px; } }
+@keyframes hit3 { from { background-position: 0px 0px; }
+  to { background-position: -210px -90px; } }
